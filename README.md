@@ -40,6 +40,7 @@ plugins:
 custom:
   # Enable or disable caching globally
   apiGatewayCaching:
+    forceEnable: true
     enabled: true
 
 functions:
@@ -98,6 +99,7 @@ plugins:
 custom:
   # Enable or disable caching globally
   apiGatewayCaching:
+    forceEnable: true
     enabled: true
     clusterSize: '0.5' # defaults to '0.5'
     ttlInSeconds: 300 # defaults to the maximum allowed: 3600
@@ -117,6 +119,7 @@ plugins:
 custom:
   # Enable or disable caching globally
   apiGatewayCaching:
+    forceEnable: true
     enabled: true
 
 functions:
@@ -151,6 +154,7 @@ plugins:
 custom:
   # Enable or disable caching globally
   apiGatewayCaching:
+    forceEnable: true
     enabled: true
     apiGatewayIsShared: true
     clusterSize: '0.5' # defaults to '0.5'
